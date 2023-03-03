@@ -1,10 +1,14 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./Screens/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
-    </div>
+      <main className="py-10">
+        <div></div>
+      </main>
+    </Router>
   );
 }
 
