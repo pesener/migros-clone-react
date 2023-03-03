@@ -1,1 +1,1 @@
-Migros Sanal MArket clone using React JS, TypeScript,
+Migros Sanal Market clone using React JS, TypeScript,
