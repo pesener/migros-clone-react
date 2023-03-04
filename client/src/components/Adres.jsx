@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-const Hemen = () => {
+const Adres = () => {
   const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
     setIsActive(true);
   };
   return (
-    <div className="bg-hemen overflow-hidden h-16  w-full">
+    <div className="bg-white overflow-hidden h-16  w-full">
       {isActive ? (
         <img
           className="w-32 h-11 ml-28 my-3 rounded-lg cursor-pointer"
@@ -26,4 +26,4 @@ const Hemen = () => {
   );
 };
 
-export default Hemen;
+export default Adres;
